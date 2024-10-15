@@ -109,6 +109,6 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         alert("Your message has been sent successfully!");
     }, function(error) {
         console.log('FAILED...', error);
-        alert("Failed to send message. Please try again.");
+        alert("Unfortunately, this Feature is not available right now because it requires an API key, and I can't include that in my repository.");
     });
 });
